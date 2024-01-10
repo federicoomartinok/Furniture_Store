@@ -1,0 +1,6 @@
+@API.Mastery.Udemy_HostAddress = http://localhost:5062
+
+GET {{API.Mastery.Udemy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
