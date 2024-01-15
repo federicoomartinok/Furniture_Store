@@ -9,3 +9,4 @@ C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreMod
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\refint\FurnitureStoreModels.dll
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.pdb
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\ref\FurnitureStoreModels.dll
+C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.sourcelink.json

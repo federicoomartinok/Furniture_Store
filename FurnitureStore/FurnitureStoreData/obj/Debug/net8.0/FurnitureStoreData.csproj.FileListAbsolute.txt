@@ -15,3 +15,4 @@ C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreDat
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreData\obj\Debug\net8.0\FurnitureStoreData.pdb
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreData\obj\Debug\net8.0\FurnitureStoreData.genruntimeconfig.cache
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreData\obj\Debug\net8.0\ref\FurnitureStoreData.dll
+C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreData\obj\Debug\net8.0\FurnitureStoreData.sourcelink.json

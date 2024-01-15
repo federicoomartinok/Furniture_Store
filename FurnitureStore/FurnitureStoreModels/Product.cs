@@ -12,5 +12,6 @@ namespace FurnitureStoreModels
         public string Name { get; set; }
         public decimal Price { get; set; } // Deberia haber una tabla especifica para precios
         public int ProductCatrgoryId { get; set; }
+        public List<OrderDetail> OrderDetails { get; set; }
     }
 }
