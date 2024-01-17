@@ -1,4 +1,5 @@
 ﻿using FurnitureStoreModels;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace FurnitureStoreData
 {
-    public class APIcontext : DbContext
+    public class APIcontext : IdentityDbContext
     {
 
         //dbcontextOptions injecta dependencia de entityframework

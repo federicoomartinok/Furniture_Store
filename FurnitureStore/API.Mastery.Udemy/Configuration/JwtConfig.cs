@@ -1,0 +1,8 @@
+﻿namespace API.Mastery.Udemy.Configuration
+{
+    public class JwtConfig
+    {
+        public string Secret { get; set; }
+    }
+
+}

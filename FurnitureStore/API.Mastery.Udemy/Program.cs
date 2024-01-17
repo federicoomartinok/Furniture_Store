@@ -1,5 +1,9 @@
+using API.Mastery.Udemy.Configuration;
 using FurnitureStoreData;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +16,32 @@ builder.Services.AddSwaggerGen();
 //Se agrega la db al program
 builder.Services.AddDbContext<APIcontext>(options =>
 options.UseSqlite(builder.Configuration.GetConnectionString("APIFurnitureStoreContext")));
+// Agrego la dependencia del JWT Token  
+builder.Services.Configure<JwtConfig>(builder.Configuration.GetSection("JwtConfig"));
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;//Esquema del jwt token
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+
+})
+.AddJwtBearer(jwt =>
+{
+    // Estos son los parametros para el token de autenticacion y autorizacion.
+    var key = Encoding.ASCII.GetBytes(builder.Configuration.GetSection("JwtConfig:Secret").Value);
+    jwt.SaveToken = true;// almacena el token cuando es verdadera la autenticacion
+    jwt.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateIssuerSigningKey = true,//La validacion tiene que suceder
+        IssuerSigningKey = new SymmetricSecurityKey(key),//Le decimos cual es la validacion
+        ValidateIssuer = false, //Una vez que esta en prod, esto tiene que estar en true
+        ValidateAudience = false,
+        RequireExpirationTime = false,
+        ValidateLifetime = true
+    };
+
+});
 
 var app = builder.Build();
 
@@ -23,6 +53,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
