@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FurnitureStoreModels.Auth
 {
-    public class AuthReult
+    public class AuthResult
     {
         public  string Token { get; set; }
         public bool Result { get; set; }

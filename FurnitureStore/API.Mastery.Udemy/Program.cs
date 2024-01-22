@@ -1,8 +1,10 @@
 using API.Mastery.Udemy.Configuration;
 using FurnitureStoreData;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +14,41 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "FurnitureStore API",
+        Version = "v1"
+    });
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+    {
+        Name = "Autorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "JWT Authorization header using the Bearer scheme. " +
+        "\r\n\r\n Enter Prefix  (Bearer), space, then token." +
+        " Example Bearer 123154125151251"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string [] {}
+        }
+    });
+});
+
 //Se agrega la db al program
 builder.Services.AddDbContext<APIcontext>(options =>
 options.UseSqlite(builder.Configuration.GetConnectionString("APIFurnitureStoreContext")));
@@ -43,6 +79,10 @@ builder.Services.AddAuthentication(options =>
 
 });
 
+builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+    //En prod esto esta en verdadero para confirmar el mail
+    options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<APIcontext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
