@@ -54,6 +54,7 @@ builder.Services.AddDbContext<APIcontext>(options =>
 options.UseSqlite(builder.Configuration.GetConnectionString("APIFurnitureStoreContext")));
 // Agrego la dependencia del JWT Token  
 builder.Services.Configure<JwtConfig>(builder.Configuration.GetSection("JwtConfig"));
+builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
 
 builder.Services.AddAuthentication(options =>
 {
