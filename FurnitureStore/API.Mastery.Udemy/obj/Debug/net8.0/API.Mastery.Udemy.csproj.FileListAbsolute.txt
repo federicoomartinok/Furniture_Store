@@ -147,3 +147,6 @@ C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\API.Mastery.Udemy
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\MailKit.dll
+C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\MimeKit.dll
