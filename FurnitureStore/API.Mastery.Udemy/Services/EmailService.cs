@@ -19,11 +19,16 @@ namespace API.Mastery.Udemy.Services
             {
                 var message = new MimeMessage();
 
+                //Mailbox Adress  
                 message.From.Add(new MailboxAddress(_smtpSettings.SenderName, _smtpSettings.SenderEmail));
+                //Aca es a quien va destinado el mail.
                 message.To.Add(new MailboxAddress("",email));
                 message.Subject = subject;
-                message.Body = new TextPart(htmlMessage);
+                //Este es el texto que se lo pasamos por parametro.
+                message.Body = new TextPart("html") { Text = htmlMessage};
                 
+
+                //Se abre con using para asegurarnos que van a ser eliminadas cuando termina el metodo.
                 using (var client = new SmtpClient())
                 {
                     await client.ConnectAsync(_smtpSettings.Server);
@@ -31,10 +36,9 @@ namespace API.Mastery.Udemy.Services
                     await client.SendAsync(message);
                     await client.DisconnectAsync(true);
                 }
-                //worn quwc cylc memg
-
-
+                
             }
+
             catch (Exception)
             {
                 throw;

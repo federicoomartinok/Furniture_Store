@@ -1,7 +1,9 @@
 using API.Mastery.Udemy.Configuration;
+using API.Mastery.Udemy.Services;
 using FurnitureStoreData;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -54,7 +56,10 @@ builder.Services.AddDbContext<APIcontext>(options =>
 options.UseSqlite(builder.Configuration.GetConnectionString("APIFurnitureStoreContext")));
 // Agrego la dependencia del JWT Token  
 builder.Services.Configure<JwtConfig>(builder.Configuration.GetSection("JwtConfig"));
+
+//Agrego la inyecion de dependencia del Email
 builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
+builder.Services.AddSingleton<IEmailSender, EmailService>();
 
 builder.Services.AddAuthentication(options =>
 {
