@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API.Mastery.Udemy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cebce2a3d2bad6b4f6417a3bc4089e231bc6b835")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d99439011770680b4f3fb98ed4024dcd7f845a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("API.Mastery.Udemy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API.Mastery.Udemy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
