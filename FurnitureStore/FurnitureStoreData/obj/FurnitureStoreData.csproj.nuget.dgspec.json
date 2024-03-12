@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fedmartin\\Desktop\\PersonalV2\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj": {}
+    "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fedmartin\\Desktop\\PersonalV2\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj": {
+    "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fedmartin\\Desktop\\PersonalV2\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj",
+        "projectUniqueName": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj",
         "projectName": "FurnitureStoreData",
-        "projectPath": "C:\\Users\\fedmartin\\Desktop\\PersonalV2\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj",
-        "packagesPath": "C:\\Users\\fedmartin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fedmartin\\Desktop\\PersonalV2\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\obj\\",
+        "projectPath": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj",
+        "packagesPath": "C:\\Users\\Federico\\.nuget\\packages\\",
+        "outputPath": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fedmartin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Federico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fedmartin\\Desktop\\PersonalV2\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj": {
-                "projectPath": "C:\\Users\\fedmartin\\Desktop\\PersonalV2\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj"
+              "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj": {
+                "projectPath": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj"
               }
             }
           }
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -85,21 +90,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fedmartin\\Desktop\\PersonalV2\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj": {
+    "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fedmartin\\Desktop\\PersonalV2\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj",
+        "projectUniqueName": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj",
         "projectName": "FurnitureStoreModels",
-        "projectPath": "C:\\Users\\fedmartin\\Desktop\\PersonalV2\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj",
-        "packagesPath": "C:\\Users\\fedmartin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fedmartin\\Desktop\\PersonalV2\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\obj\\",
+        "projectPath": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj",
+        "packagesPath": "C:\\Users\\Federico\\.nuget\\packages\\",
+        "outputPath": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fedmartin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Federico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,6 +124,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -140,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

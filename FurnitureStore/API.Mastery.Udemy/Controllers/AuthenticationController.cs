@@ -1,5 +1,8 @@
 ﻿using API.Mastery.Udemy.Configuration;
+using FurnitureStoreData;
+using FurnitureStoreModels;
 using FurnitureStoreModels.Auth;
+using FurnitureStoreModels.Common;
 using FurnitureStoreModels.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -23,14 +26,17 @@ namespace API.Mastery.Udemy.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly JwtConfig _jwtConfig;
         private readonly IEmailSender _emailSender;
-
+        private readonly APIcontext _context;
+        
         public AuthenticationController (UserManager<IdentityUser> userManager, 
                                         IOptions<JwtConfig> jwtConfig, 
-                                        IEmailSender emailSender)
+                                        IEmailSender emailSender,
+                                        APIcontext context)
         {
             _userManager = userManager;
             _jwtConfig = jwtConfig.Value;
             _emailSender = emailSender;
+            _context = context;
         }
 
         [HttpPost("Register")]
@@ -127,11 +133,7 @@ namespace API.Mastery.Udemy.Controllers
 
             //Checkea el token
             var token = GenerateToken(existingUser);
-            return Ok(new AuthResult
-            {
-                Token = token,
-                Result = true,
-            });
+            return Ok(token);
         }
 
         [HttpGet("ConfirmEmail")]
@@ -161,7 +163,7 @@ namespace API.Mastery.Udemy.Controllers
         }
 
 
-        private string GenerateToken(IdentityUser user)
+        private async Task<AuthResult> GenerateToken(IdentityUser user)
         {
             var jwtTokenHandler = new JwtSecurityTokenHandler();
 
@@ -178,13 +180,34 @@ namespace API.Mastery.Udemy.Controllers
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                     new Claim(JwtRegisteredClaimNames.Iat, DateTime.Now.ToUniversalTime().ToString())
                 })),
-                Expires = DateTime.UtcNow.AddHours(1),
+                Expires = DateTime.UtcNow.Add(_jwtConfig.ExpiryTime),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256)
             };
 
             var token = jwtTokenHandler.CreateToken(tokenDescriptor);
 
-            return jwtTokenHandler.WriteToken(token);
+            var jwtToken = jwtTokenHandler.WriteToken(token);
+
+            var refreshToken = new RefreshToken
+            {
+                JwtId = token.Id,
+                Token = RandomGenerator.GenerateRandomString(23),//Token random generado
+                AddDate = DateTime.UtcNow,
+                ExpiryDate = DateTime.UtcNow.AddMonths(6),
+                IsRevoked = false,
+                IsUsed = false,
+                UserId = user.Id,
+            };
+
+            await _context.RefreshTokens.AddAsync(refreshToken);//Se agrega a la db
+            await _context.SaveChangesAsync();//se guarda con entity
+
+            return new AuthResult
+            {
+                Token = jwtToken,
+                RefreshToken = refreshToken.Token,
+                Result = true
+            };
         }
 
         private async Task SendVerificationEmail (IdentityUser user)

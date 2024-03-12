@@ -10,3 +10,15 @@ C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreMod
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.pdb
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\ref\FurnitureStoreModels.dll
 C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.sourcelink.json
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\bin\Debug\net8.0\FurnitureStoreModels.deps.json
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\bin\Debug\net8.0\FurnitureStoreModels.dll
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\bin\Debug\net8.0\FurnitureStoreModels.pdb
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.AssemblyInfoInputs.cache
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.AssemblyInfo.cs
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.csproj.CoreCompileInputs.cache
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.sourcelink.json
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.dll
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\refint\FurnitureStoreModels.dll
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.pdb
+E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\ref\FurnitureStoreModels.dll

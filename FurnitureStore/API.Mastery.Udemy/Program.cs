@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
@@ -61,6 +62,20 @@ builder.Services.Configure<JwtConfig>(builder.Configuration.GetSection("JwtConfi
 builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
 builder.Services.AddSingleton<IEmailSender, EmailService>();
 
+var key = Encoding.ASCII.GetBytes(builder.Configuration.GetSection("JwtConfig:Secret").Value);
+var tokenValidationParameters = new TokenValidationParameters()
+{
+    ValidateIssuerSigningKey = true,//La validacion tiene que suceder
+    IssuerSigningKey = new SymmetricSecurityKey(key),//Le decimos cual es la validacion
+    ValidateIssuer = false, //Una vez que esta en prod, esto tiene que estar en true
+    ValidateAudience = false,
+    RequireExpirationTime = false,
+    ValidateLifetime = true
+};
+
+builder.Services.AddSingleton(tokenValidationParameters);
+
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;//Esquema del jwt token
@@ -71,17 +86,8 @@ builder.Services.AddAuthentication(options =>
 .AddJwtBearer(jwt =>
 {
     // Estos son los parametros para el token de autenticacion y autorizacion.
-    var key = Encoding.ASCII.GetBytes(builder.Configuration.GetSection("JwtConfig:Secret").Value);
     jwt.SaveToken = true;// almacena el token cuando es verdadera la autenticacion
-    jwt.TokenValidationParameters = new TokenValidationParameters()
-    {
-        ValidateIssuerSigningKey = true,//La validacion tiene que suceder
-        IssuerSigningKey = new SymmetricSecurityKey(key),//Le decimos cual es la validacion
-        ValidateIssuer = false, //Una vez que esta en prod, esto tiene que estar en true
-        ValidateAudience = false,
-        RequireExpirationTime = false,
-        ValidateLifetime = true
-    };
+    jwt.TokenValidationParameters = tokenValidationParameters;
 
 });
 
@@ -89,6 +95,10 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
     //En prod esto esta en verdadero para confirmar el mail
     options.SignIn.RequireConfirmedAccount = false)
     .AddEntityFrameworkStores<APIcontext>();
+
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
