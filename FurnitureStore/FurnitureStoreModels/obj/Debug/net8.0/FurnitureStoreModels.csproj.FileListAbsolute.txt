@@ -22,3 +22,15 @@ E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\Fu
 E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\refint\FurnitureStoreModels.dll
 E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.pdb
 E:\Curso_Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\ref\FurnitureStoreModels.dll
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\bin\Debug\net8.0\FurnitureStoreModels.deps.json
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\bin\Debug\net8.0\FurnitureStoreModels.dll
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\bin\Debug\net8.0\FurnitureStoreModels.pdb
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.AssemblyInfoInputs.cache
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.AssemblyInfo.cs
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.csproj.CoreCompileInputs.cache
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.sourcelink.json
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.dll
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\refint\FurnitureStoreModels.dll
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\FurnitureStoreModels.pdb
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\obj\Debug\net8.0\ref\FurnitureStoreModels.dll

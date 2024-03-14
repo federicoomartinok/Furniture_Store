@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Federico\\.nuget\\packages\\": {}
+    "C:\\Users\\fedmartin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj",
+      "projectUniqueName": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj",
       "projectName": "FurnitureStoreModels",
-      "projectPath": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj",
-      "packagesPath": "C:\\Users\\Federico\\.nuget\\packages\\",
-      "outputPath": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\obj\\",
+      "projectPath": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj",
+      "packagesPath": "C:\\Users\\fedmartin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Federico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fedmartin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

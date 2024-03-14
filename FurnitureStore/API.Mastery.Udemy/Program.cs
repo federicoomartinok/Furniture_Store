@@ -18,39 +18,35 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "FurnitureStore API",
-        Version = "v1"
-    });
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
-    {
-        Name = "Autorization",
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = "Bearer",
-        BearerFormat = "JWT",
-        In = ParameterLocation.Header,
-        Description = "JWT Authorization header using the Bearer scheme. " +
-        "\r\n\r\n Enter Prefix  (Bearer), space, then token." +
-        " Example Bearer 123154125151251"
-    });
-
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
+        c.SwaggerDoc("v1", new OpenApiInfo
         {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
+            Title = "Furniture_Store_API",
+            Version = "v1"
+        });
+        c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+        {
+            Name = "Authorization",
+            Type = SecuritySchemeType.ApiKey,
+            Scheme = "Bearer",
+            BearerFormat = "JWT",
+            In = ParameterLocation.Header,
+            Description = $@"JWT Authorization header using the Bearer scheme. 
+                        \r\n\r\n Enter prefix (Bearer), space, and then your token. 
+                        Example: 'Bearer 1231233kjsdlkajdksad'"
+        });
+        c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+        {
+            new OpenApiSecurityScheme {
+            Reference = new OpenApiReference{
+                Type = ReferenceType.SecurityScheme,
                     Id = "Bearer"
                 }
             },
-            new string [] {}
+            new string [] { }
         }
     });
-});
+ });
 
 //Se agrega la db al program
 builder.Services.AddDbContext<APIcontext>(options =>

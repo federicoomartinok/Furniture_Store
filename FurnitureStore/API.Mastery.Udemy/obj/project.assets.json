@@ -3980,19 +3980,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Federico\\.nuget\\packages\\": {}
+    "C:\\Users\\fedmartin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\API.Mastery.Udemy.csproj",
+      "projectUniqueName": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\API.Mastery.Udemy.csproj",
       "projectName": "API.Mastery.Udemy",
-      "projectPath": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\API.Mastery.Udemy.csproj",
-      "packagesPath": "C:\\Users\\Federico\\.nuget\\packages\\",
-      "outputPath": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\obj\\",
+      "projectPath": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\API.Mastery.Udemy.csproj",
+      "packagesPath": "C:\\Users\\fedmartin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Federico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fedmartin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4006,11 +4006,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj": {
-              "projectPath": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj"
+            "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj": {
+              "projectPath": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\FurnitureStoreData.csproj"
             },
-            "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj": {
-              "projectPath": "E:\\Curso_Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj"
+            "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj": {
+              "projectPath": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\FurnitureStoreModels.csproj"
             }
           }
         }
