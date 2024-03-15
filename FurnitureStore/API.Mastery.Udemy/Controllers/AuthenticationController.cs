@@ -30,23 +30,27 @@ namespace API.Mastery.Udemy.Controllers
         private readonly IEmailSender _emailSender;
         private readonly APIcontext _context;
         private readonly TokenValidationParameters _tokenValidationParameters;
+        private readonly ILogger<AuthenticationController> _logger;
         
         public AuthenticationController (UserManager<IdentityUser> userManager, 
                                         IOptions<JwtConfig> jwtConfig, 
                                         IEmailSender emailSender,
                                         APIcontext context,
-                                        TokenValidationParameters tokenValidationParameters)
+                                        TokenValidationParameters tokenValidationParameters,
+                                        ILogger<AuthenticationController> logger)
         {
             _userManager = userManager;
             _jwtConfig = jwtConfig.Value;
             _emailSender = emailSender;
             _context = context;
             _tokenValidationParameters = tokenValidationParameters;
+            _logger = logger;
         }
 
         [HttpPost("Register")]
         public async Task<IActionResult> Register([FromBody] UserRegistrationRequestDto request)
         {
+            _logger.LogWarning("A user is trying to register");
             //Este modelState verifica que las DataAnotation de DTO se cumplan "[Required]"
             if (!ModelState.IsValid) return BadRequest();
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FurnitureStoreData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bd76c21b87929c6ee52b9800573167b3f202acc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69ba21b7b59588e1dd8b73fd8008d6eed7942258")]
 [assembly: System.Reflection.AssemblyProductAttribute("FurnitureStoreData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FurnitureStoreData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

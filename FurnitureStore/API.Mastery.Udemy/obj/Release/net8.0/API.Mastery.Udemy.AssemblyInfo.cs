@@ -11,10 +11,12 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("485ab3d7-7514-4fdc-85c7-6b6a919f5e0e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("API.Mastery.Udemy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bd76c21b87929c6ee52b9800573167b3f202acc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69ba21b7b59588e1dd8b73fd8008d6eed7942258")]
 [assembly: System.Reflection.AssemblyProductAttribute("API.Mastery.Udemy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API.Mastery.Udemy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

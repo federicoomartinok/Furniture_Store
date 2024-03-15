@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|solutionrelative:api.mastery.udemy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|c:\\users\\fedmartin\\desktop\\udemy\\udemy_api\\furniturestore\\api.mastery.udemy\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|solutionrelative:api.mastery.udemy\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|c:\\users\\fedmartin\\desktop\\udemy\\udemy_api\\furniturestore\\api.mastery.udemy\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|solutionrelative:api.mastery.udemy\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|c:\\users\\fedmartin\\desktop\\udemy\\udemy_api\\furniturestore\\api.mastery.udemy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|solutionrelative:api.mastery.udemy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{158D38BA-8561-46C4-B145-CE3E4F2CD8A7}|FurnitureStoreModels\\FurnitureStoreModels.csproj|c:\\users\\fedmartin\\desktop\\udemy\\udemy_api\\furniturestore\\furniturestoremodels\\dtos\\userregistrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{158D38BA-8561-46C4-B145-CE3E4F2CD8A7}|FurnitureStoreModels\\FurnitureStoreModels.csproj|solutionrelative:furniturestoremodels\\dtos\\userregistrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D22F26A4-AF58-49B5-B7FF-A22116F18E11}|FurnitureStoreData\\FurnitureStoreData.csproj|c:\\users\\fedmartin\\desktop\\udemy\\udemy_api\\furniturestore\\furniturestoredata\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D22F26A4-AF58-49B5-B7FF-A22116F18E11}|FurnitureStoreData\\FurnitureStoreData.csproj|solutionrelative:furniturestoredata\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|c:\\users\\fedmartin\\desktop\\udemy\\udemy_api\\furniturestore\\api.mastery.udemy\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|solutionrelative:api.mastery.udemy\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|c:\\users\\fedmartin\\desktop\\udemy\\udemy_api\\furniturestore\\api.mastery.udemy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|solutionrelative:api.mastery.udemy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D98903E6-47A1-4BBC-845F-75EB56FB4011}|API.Mastery.Udemy\\API.Mastery.Udemy.csproj|c:\\users\\fedmartin\\desktop\\udemy\\udemy_api\\furniturestore\\api.mastery.udemy\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,8 +113,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "nlog.config",
+              "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\nlog.config",
+              "RelativeDocumentMoniker": "API.Mastery.Udemy\\nlog.config",
+              "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\nlog.config",
+              "RelativeToolTip": "API.Mastery.Udemy\\nlog.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-15T11:52:17.916Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -119,64 +136,14 @@
               "RelativeDocumentMoniker": "API.Mastery.Udemy\\Program.cs",
               "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Program.cs",
               "RelativeToolTip": "API.Mastery.Udemy\\Program.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAUwEYAAAAAAAAA",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T13:21:50.436Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:590105318:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1661125766:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:623822721:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "APIcontext.cs",
-              "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\APIcontext.cs",
-              "RelativeDocumentMoniker": "FurnitureStoreData\\APIcontext.cs",
-              "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\APIcontext.cs",
-              "RelativeToolTip": "FurnitureStoreData\\APIcontext.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCMAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T13:21:56.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:833303092:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1810339516:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1096484862:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthResult.cs",
-              "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\Auth\\AuthResult.cs",
-              "RelativeDocumentMoniker": "FurnitureStoreModels\\Auth\\AuthResult.cs",
-              "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\Auth\\AuthResult.cs",
-              "RelativeToolTip": "FurnitureStoreModels\\Auth\\AuthResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T13:21:56.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "TokenRequest.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\DTOs\\TokenRequest.cs",
               "RelativeDocumentMoniker": "FurnitureStoreModels\\DTOs\\TokenRequest.cs",
@@ -184,12 +151,11 @@
               "RelativeToolTip": "FurnitureStoreModels\\DTOs\\TokenRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T13:46:30.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T13:46:30.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "UserLoginRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\DTOs\\UserLoginRequestDto.cs",
               "RelativeDocumentMoniker": "FurnitureStoreModels\\DTOs\\UserLoginRequestDto.cs",
@@ -197,12 +163,60 @@
               "RelativeToolTip": "FurnitureStoreModels\\DTOs\\UserLoginRequestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T13:21:56.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T13:21:56.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\appsettings.json",
+              "RelativeDocumentMoniker": "API.Mastery.Udemy\\appsettings.json",
+              "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\appsettings.json",
+              "RelativeToolTip": "API.Mastery.Udemy\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-12T13:21:56.046Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "API.Mastery.Udemy\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "API.Mastery.Udemy\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAgwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T13:21:50.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthResult.cs",
+              "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\Auth\\AuthResult.cs",
+              "RelativeDocumentMoniker": "FurnitureStoreModels\\Auth\\AuthResult.cs",
+              "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\Auth\\AuthResult.cs",
+              "RelativeToolTip": "FurnitureStoreModels\\Auth\\AuthResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T13:21:56.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "APIcontext.cs",
+              "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\APIcontext.cs",
+              "RelativeDocumentMoniker": "FurnitureStoreData\\APIcontext.cs",
+              "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\APIcontext.cs",
+              "RelativeToolTip": "FurnitureStoreData\\APIcontext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwCMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T13:21:56.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserRegistrationRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\DTOs\\UserRegistrationRequestDto.cs",
               "RelativeDocumentMoniker": "FurnitureStoreModels\\DTOs\\UserRegistrationRequestDto.cs",
@@ -210,25 +224,11 @@
               "RelativeToolTip": "FurnitureStoreModels\\DTOs\\UserRegistrationRequestDto.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAvwAwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T13:21:56.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T13:21:56.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "API.Mastery.Udemy\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "API.Mastery.Udemy\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAowAEBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T13:21:50.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SmtpSettings.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Configuration\\SmtpSettings.cs",
               "RelativeDocumentMoniker": "API.Mastery.Udemy\\Configuration\\SmtpSettings.cs",
@@ -240,20 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\appsettings.json",
-              "RelativeDocumentMoniker": "API.Mastery.Udemy\\appsettings.json",
-              "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\appsettings.json",
-              "RelativeToolTip": "API.Mastery.Udemy\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-12T13:21:56.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "JwtConfig.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Configuration\\JwtConfig.cs",
               "RelativeDocumentMoniker": "API.Mastery.Udemy\\Configuration\\JwtConfig.cs",
@@ -265,44 +252,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ClientsController.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Controllers\\ClientsController.cs",
               "RelativeDocumentMoniker": "API.Mastery.Udemy\\Controllers\\ClientsController.cs",
               "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Controllers\\ClientsController.cs",
               "RelativeToolTip": "API.Mastery.Udemy\\Controllers\\ClientsController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T13:21:56.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T13:21:56.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\RefreshToken.cs",
               "RelativeDocumentMoniker": "FurnitureStoreModels\\RefreshToken.cs",
               "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\RefreshToken.cs",
               "RelativeToolTip": "FurnitureStoreModels\\RefreshToken.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T13:47:18.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Federico\\AppData\\Roaming\\Microsoft\\UserSecrets\\485ab3d7-7514-4fdc-85c7-6b6a919f5e0e\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Federico\\AppData\\Roaming\\Microsoft\\UserSecrets\\485ab3d7-7514-4fdc-85c7-6b6a919f5e0e\\secrets.json",
               "ToolTip": "C:\\Users\\Federico\\AppData\\Roaming\\Microsoft\\UserSecrets\\485ab3d7-7514-4fdc-85c7-6b6a919f5e0e\\secrets.json",
               "RelativeToolTip": "..\\..\\..\\..\\..\\Federico\\AppData\\Roaming\\Microsoft\\UserSecrets\\485ab3d7-7514-4fdc-85c7-6b6a919f5e0e\\secrets.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-03-12T13:54:54.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RandomGenerator.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\Common\\RandomGenerator.cs",
               "RelativeDocumentMoniker": "FurnitureStoreModels\\Common\\RandomGenerator.cs",
@@ -314,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "API.Mastery.Udemy\\Services\\EmailService.cs",
@@ -326,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\Order.cs",
               "RelativeDocumentMoniker": "FurnitureStoreModels\\Order.cs",
@@ -338,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "API.Mastery.Udemy\\Controllers\\WeatherForecastController.cs",
@@ -350,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "API.Mastery.Udemy\\Controllers\\ProductsController.cs",
@@ -362,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ProductCategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Controllers\\ProductCategoriesController.cs",
               "RelativeDocumentMoniker": "API.Mastery.Udemy\\Controllers\\ProductCategoriesController.cs",
@@ -374,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "API.Mastery.Udemy\\Controllers\\OrdersController.cs",
@@ -386,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "20240117141310_Se agrega identity a la API.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreData\\Migrations\\20240117141310_Se agrega identity a la API.cs",
               "RelativeDocumentMoniker": "FurnitureStoreData\\Migrations\\20240117141310_Se agrega identity a la API.cs",
@@ -398,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ProductCategory.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\ProductCategory.cs",
               "RelativeDocumentMoniker": "FurnitureStoreModels\\ProductCategory.cs",
@@ -410,19 +395,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\Client.cs",
               "RelativeDocumentMoniker": "FurnitureStoreModels\\Client.cs",
               "ToolTip": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\Client.cs",
               "RelativeToolTip": "FurnitureStoreModels\\Client.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBAAAAAFAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T13:21:56.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\Product.cs",
               "RelativeDocumentMoniker": "FurnitureStoreModels\\Product.cs",
@@ -434,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\FurnitureStoreModels\\OrderDetail.cs",
               "RelativeDocumentMoniker": "FurnitureStoreModels\\OrderDetail.cs",

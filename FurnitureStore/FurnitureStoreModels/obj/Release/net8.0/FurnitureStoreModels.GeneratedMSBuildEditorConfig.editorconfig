@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FurnitureStoreModels
-build_property.ProjectDir = C:\Users\fedmartin\Desktop\PersonalV2\Udemy_API\FurnitureStore\FurnitureStoreModels\
+build_property.ProjectDir = C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\FurnitureStoreModels\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5er718hzDysFXfzdNX9fPD7WmZca9guT5cNVU4eNQoN9ouz1u7Rmjfyz9syB/1MJGjO60kvHQ4sOObCLnVXzxA==",
+  "dgSpecHash": "Bk2ZzPrhQdgFCwBcsJraHNlEp1HrXs4z4kiPm2+Me9Tm9q+c4DfpfSN0yzjdaOdcTmIg40hj+y5wN71CDZzxxA==",
   "success": true,
   "projectFilePath": "C:\\Users\\fedmartin\\Desktop\\Udemy\\Udemy_API\\FurnitureStore\\API.Mastery.Udemy\\API.Mastery.Udemy.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,9 @@
     "C:\\Users\\fedmartin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\fedmartin\\.nuget\\packages\\mimekit\\4.3.0\\mimekit.4.3.0.nupkg.sha512",
     "C:\\Users\\fedmartin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\fedmartin\\.nuget\\packages\\nlog\\5.2.8\\nlog.5.2.8.nupkg.sha512",
+    "C:\\Users\\fedmartin\\.nuget\\packages\\nlog.extensions.logging\\5.3.8\\nlog.extensions.logging.5.3.8.nupkg.sha512",
+    "C:\\Users\\fedmartin\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.8\\nlog.web.aspnetcore.5.3.8.nupkg.sha512",
     "C:\\Users\\fedmartin\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\fedmartin\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\fedmartin\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",

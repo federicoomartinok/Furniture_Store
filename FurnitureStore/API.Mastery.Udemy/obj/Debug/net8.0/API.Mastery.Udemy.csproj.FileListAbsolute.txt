@@ -454,3 +454,7 @@ C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\obj\
 C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\obj\Debug\net8.0\API.Mastery.Udemy.pdb
 C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\obj\Debug\net8.0\API.Mastery.Udemy.genruntimeconfig.cache
 C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\obj\Debug\net8.0\ref\API.Mastery.Udemy.dll
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\nlog.config
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\NLog.dll
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\NLog.Web.AspNetCore.dll

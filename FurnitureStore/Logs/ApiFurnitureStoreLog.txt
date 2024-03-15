@@ -1,0 +1,12 @@
+2024-03-15 09:13:45.6675 Info Registered target NLog.Targets.FileTarget(Name=all_logs)
+2024-03-15 09:13:45.7101 Info Registered target NLog.Targets.FileTarget(Name=relevant_logs)
+2024-03-15 09:13:45.7446 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-15 09:13:45.8100 Info Validating config: TargetNames=all_logs, relevant_logs, ConfigItems=24, FilePath=C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\NLog.config
+2024-03-15 09:13:45.8261 Info Configuration initialized.
+2024-03-15 09:13:48.0191 Info Validating config: TargetNames=all_logs, relevant_logs, ConfigItems=24, FilePath=C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\NLog.config
+2024-03-15 09:17:27.9287 Info Registered target NLog.Targets.FileTarget(Name=all_logs)
+2024-03-15 09:17:27.9406 Info Registered target NLog.Targets.FileTarget(Name=relevant_logs)
+2024-03-15 09:17:27.9523 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-15 09:17:27.9715 Info Validating config: TargetNames=all_logs, relevant_logs, ConfigItems=24, FilePath=C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\NLog.config
+2024-03-15 09:17:27.9839 Info Configuration initialized.
+2024-03-15 09:17:28.4174 Info Validating config: TargetNames=all_logs, relevant_logs, ConfigItems=24, FilePath=C:\Users\fedmartin\Desktop\Udemy\Udemy_API\FurnitureStore\API.Mastery.Udemy\bin\Debug\net8.0\NLog.config
