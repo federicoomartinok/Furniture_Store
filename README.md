@@ -1,87 +1,76 @@
-<h3 align="center">API.Furniture Store</h3>
+# Furniture Store API
 
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
-</div>
+## Descripción
+
+**Furniture Store API** es una API RESTful desarrollada en C# como parte de un curso en Udemy. Este proyecto tiene como objetivo practicar el desarrollo de aplicaciones backend utilizando ASP.NET Core y SQL Server. La API permite gestionar productos, pedidos e inventario de una tienda de muebles.
+
+## Características
+
+- **Gestión de Productos**: Crear, leer, actualizar y eliminar información de productos, como nombre, descripción, precio y stock disponible.
+- **Gestión de Pedidos**: Registrar nuevos pedidos, consultar el estado de pedidos existentes y actualizar su información.
+- **Gestión de Inventario**: Monitorear y actualizar el inventario de productos en tiempo real.
+
+## Tecnologías Utilizadas
+
+- **Lenguaje**: C#
+- **Framework**: ASP.NET Core
+- **Base de Datos**: SQL Server
+
+## Instalación
+
+1. **Clonar el Repositorio**:
+
+   ```bash
+   git clone https://github.com/federicoomartinok/Furniture_Store.git
+
+   Restaurar Dependencias:
+
+   Navega al directorio del proyecto y restaura las dependencias:
+
+   cd Furniture_Store
+   dotnet restore
+
+   Configurar la Base de Datos:
+
+   Asegúrate de tener una instancia de SQL Server en funcionamiento.
+   Configura la cadena de conexión en el archivo appsettings.json según tus credenciales y configuración de la base de datos.
+
+   Aplicar Migraciones:
+
+   Aplica las migraciones para crear la base de datos y las tablas necesarias:
+
+   dotnet ef database update
+
+   Ejecutar la Aplicación:
+
+   Inicia la aplicación con el siguiente comando:
+
+   dotnet run
+
+   La API estará disponible en https://localhost:5001 por defecto.
+
+## Uso
+
+La API expone los siguientes endpoints:
+
+- **Productos**:
+  - `GET /api/products`: Obtiene la lista de todos los productos.
+  - `GET /api/products/{id}`: Obtiene un producto por su ID.
+  - `POST /api/products`: Crea un nuevo producto.
+  - `PUT /api/products/{id}`: Actualiza un producto existente.
+  - `DELETE /api/products/{id}`: Elimina un producto.
+
+- **Pedidos**:
+  - `GET /api/orders`: Obtiene la lista de todos los pedidos.
+  - `GET /api/orders/{id}`: Obtiene un pedido por su ID.
+  - `POST /api/orders`: Crea un nuevo pedido.
+  - `PUT /api/orders/{id}`: Actualiza un pedido existente.
+  - `DELETE /api/orders/{id}`: Elimina un pedido.
+
+- **Inventario**:
+  - `GET /api/inventory`: Obtiene el estado actual del inventario.
+  - `PUT /api/inventory/{productId}`: Actualiza el stock de un producto.
+
+Para más detalles sobre cada endpoint y ejemplos de uso, consulta la documentación generada automáticamente con Swagger en https://localhost:5001/swagger.
 
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [![C#][C#]][C#-url]
-* [![SQlite][SQlite]][SQlite-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/federicoomartin/Furniture_Store](https://github.com/federicoomartin/Furniture_Store)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-url]: https://github.com/federicoomartinok/Udemy_API
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/federico-martin-946945181/
-[product-screenshot]: images/screenshot.png
-[C#]: https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white
-[C#-url]: https://Microsoft.org/
-[SQlite]: https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white
-[SQlite-url]: https://Sqlite.org/
